@@ -1,0 +1,22 @@
+from enum import Enum
+
+ADDRESS = 0x100
+
+class Model(int, Enum):
+    DESK_UNIQUE_OLD = 4609,
+    DESK_NEW = 4625,
+    DESK_ICODE = 4881,
+    DESK_MIFARE_OLD = 5121,
+    DESK_MIF2 = 5137,
+    DESK_ICLASS = 5393,
+    DESK_HITAG2 = 5649,
+    DESK_HID125 = 5905,
+    DESK_COMBO = 6673,
+    IND_U1 = 8705,
+    IND_U2 = 8706,
+    IND_U4 = 8708,
+    IND_M1 = 9217,
+    IND_M2 = 9218,
+    IND_M4 = 9220,
+    DESK_UNIQUE_POCKET = 12817,
+    DESK_HID125K_POCKET = 14097,
